@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GitHub Issues Viewer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main>
+    <h1>GitHub Issues Viewer</h1>
+
+    <form id="repo-form">
+      <label for="repo-name">Repository (e.g. facebook/react):</label>
+      <input type="text" id="repo-name" placeholder="owner/repo" required />
+      <button type="submit">Load Issues</button>
+    </form>
+
+    <ul id="issues-list"></ul>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
